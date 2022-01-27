@@ -1,0 +1,99 @@
+
+.wrap { 
+    padding:30px;
+    width:980px;
+    margin: auto;
+}
+.header{
+    height: 10px;
+    margin-bottom:10px;
+    padding: 30px;
+}
+.content{
+    padding:30px;
+    width:460px;
+    height:30px;
+    margin:auto;
+}
+.metin{
+    width:700px;
+    height:330px;
+    padding: 30px;
+    margin: auto;
+}
+.liste{
+    list-style-position: inside;
+    list-style-type:lower-latin;
+}
+@-webkit-keyframes blink {
+    0%   { background:red; }
+    50%  { background:green;}
+    100% { background:red; }
+}
+@-moz-keyframes blink {
+    0%   { background:red; }
+    50%  { background:green;}
+    100% { background:red; }
+}
+@-ms-keyframes blink {
+    0%   { background:red; }
+    50%  { background:green;}
+    100% { background:red; }
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8A6;
+}
+
+
+
+h1{
+    -webkit-animation: blink 1s infinite;
+    -moz-animation:    blink 1s infinite;
+    -ms-animation:     blink 1s infinite;
+    width: fit-content;
+    font-size: 40px;
+    color: #E8E8A6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/* CSS */
+.button {
+    
+ background-color: #c2fbd7;
+ border-radius: 100px;
+ box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+ color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 10s;
+  font-size: 26px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  
+}
+
+.button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+    
